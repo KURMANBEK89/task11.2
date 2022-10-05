@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Triangel treugolnik = new Triangel();
+        treugolnik.a = 5;
+        treugolnik.b = 6;
+        treugolnik.c = 7;
+
+        treugolnik.area();
+
     }
 }
